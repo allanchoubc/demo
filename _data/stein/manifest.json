@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://allanchoubc.github.io/demo/stein/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "stein" ] },
+    "provider": [
+      {
+        "id": "https://archive.org/",
+        "type": "Agent",
+        "label": { "en": [ "internet archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://allanchoubc.github.io/demo/stein/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1355.0,
+        "items": [
+          {
+            "id": "https://allanchoubc.github.io/demo/stein/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://allanchoubc.github.io/demo/stein/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/details/PortraitOfMabelDodgeAtVillaCuronia/ArrivaLInParis_02.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 1355.0
+                },
+                "target": "https://allanchoubc.github.io/demo/stein/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
